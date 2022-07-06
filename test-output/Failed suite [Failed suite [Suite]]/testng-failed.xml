@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Suite]]]" parallel="tests">
+  <parameter name="password" value="895855"/>
+  <parameter name="browsername" value="chrome"/>
+  <parameter name="email" value="prithiv@gmal.com"/>
+  <test name="TestOnChrome(failed)(failed)(failed)" parallel="tests">
+    <parameter name="password" value="895855"/>
+    <parameter name="browsername" value="chrome"/>
+    <parameter name="email" value="prithiv@gmal.com"/>
+    <classes>
+      <class name="org.login.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTestCase"/>
+        </methods>
+      </class> <!-- org.login.LoginPageTest -->
+    </classes>
+  </test> <!-- TestOnChrome(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->
